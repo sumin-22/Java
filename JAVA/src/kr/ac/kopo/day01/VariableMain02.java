@@ -1,5 +1,7 @@
 package kr.ac.kopo.day01;
 
+
+
 public class VariableMain02 {
 
 	public static void main(String[] args) {
@@ -14,6 +16,8 @@ public class VariableMain02 {
 		String str =  new String("Hello");
 		
 		System.out.println(str);
+		
+		
 	}
 
 }
