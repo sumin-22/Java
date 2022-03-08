@@ -20,8 +20,8 @@ public class VariableMain03 {
 		int e = 10 + (int)20.2;
 		System.out.println(e);
 			
-		final int num = 100;
-		System.out.println("num : " + num);
+		final int NUM = 100;
+		System.out.println("num : " + NUM);
 		
 		
 		
