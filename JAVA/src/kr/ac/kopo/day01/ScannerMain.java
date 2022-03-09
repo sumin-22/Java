@@ -20,7 +20,7 @@ public class ScannerMain {
 		String st2 = sc.nextLine();
 		System.out.println("st2 : " + st2);
 	
-		System.out.print("정수를 하나 입력하게요 : ");
+		System.out.print("정수를 하나 입력하세요 : ");
 		int a = sc.nextInt();
 		System.out.println("a : " + a);
 		
