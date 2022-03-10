@@ -13,7 +13,6 @@ public class LottoUtil {
 	 * 오늘의 로또 확률을 알려주는 메소드
 	 */
 	
-	
 	public void todayProbability() {
 		
 		Random r = new Random();
