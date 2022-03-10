@@ -24,6 +24,18 @@ public class VariableMain03 {
 		System.out.println("num : " + NUM);
 		
 		
+		char ch = '!';
+		ch = '\'';
+		ch = '\n';
+		ch = '\\';
+		System.out.println(ch);
+		
+		
+		String path =" D:\\Lecture\\java-workspace";
+		System.out.println(path);
+		
+		String str = "\"ab\"";
+		System.out.println(str);
 		
 		
 
