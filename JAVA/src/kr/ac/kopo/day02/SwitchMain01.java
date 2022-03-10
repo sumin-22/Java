@@ -16,16 +16,19 @@ public class SwitchMain01 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("1 ~ 3 사이의 정수 입력 : ");
+		System.out.print("1 ~ 3 사이의 정수 입력 : ");
 		int num = sc.nextInt();
 		
 		switch (num) {
 		case 1 :
 			System.out.println("ONE");
+			break;
 		case 2 :
 			System.out.println("TWO");
+			break;
 		case 3 :
 			System.out.println("THREE");
+			break;
 		default :
 			System.out.println("ERROR");
 		}
