@@ -1,37 +1,37 @@
 package kr.ac.kopo.day01;
 
-/* 		±âº» ÀÚ·áÇü
-  		³í¸®Çü : boolean
-  		¹®ÀÚÇü: char
-  		Á¤¼öÇü: byte, short, int(*), long
-  		½Ç¼öÇü: float, double(*)
+/* 		ê¸°ë³¸ ìžë£Œí˜•
+  		ë…¼ë¦¬í˜• : boolean
+  		ë¬¸ìží˜•: char
+  		ì •ìˆ˜í˜•: byte, short, int(*), long
+  		ì‹¤ìˆ˜í˜•: float, double(*)
   		
   		
-  		º¯¼ö ¼±¾ð
-  		ÀÚ·áÇü º¯¼ö¸í;
+  		ë³€ìˆ˜ ì„ ì–¸
+  		ìžë£Œí˜• ë³€ìˆ˜ëª…;
   		
-  		º¯¼ö ´ëÀÔ
-  		º¯¼ö¸í = °ª;
+  		ë³€ìˆ˜ ëŒ€ìž…
+  		ë³€ìˆ˜ëª… = ê°’;
   		
-  		º¯¼ö ÃÊ±âÈ­ (¼±¾ð°ú µ¿½Ã¿¡ °ª ´ëÀÔ)
-  		ÀÚ·áÇü º¯¼ö¸í = °ª;
+  		ë³€ìˆ˜ ì´ˆê¸°í™” (ì„ ì–¸ê³¼ ë™ì‹œì— ê°’ ëŒ€ìž…)
+  		ìžë£Œí˜• ë³€ìˆ˜ëª… = ê°’;
   		
-  		 °°Àº ÀÚ·áÇüÀÇ º¯¼ö ¿©·¯°³ ¼±¾ð
-  		 ÀÚ·áÇü º¯¼ö¸í1, º¯¼ö¸í2, º¯¼ö¸í3 ... 
+  		 ê°™ì€ ìžë£Œí˜•ì˜ ë³€ìˆ˜ ì—¬ëŸ¬ê°œ ì„ ì–¸
+  		 ìžë£Œí˜• ë³€ìˆ˜ëª…1, ë³€ìˆ˜ëª…2, ë³€ìˆ˜ëª…3 ... 
  */
 public class VariableMain {
 	
 
 	public static void main(String[] args) {
 		
-		//´ë¹®ÀÚ A¸¦ ÀúÀåÇÏ±â À§ÇÑ º¯¼ö a ¼±¾ð
-		char a; //Áö¿ªº¯¼ö
+		//ëŒ€ë¬¸ìž Aë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ a ì„ ì–¸
+		char a; //ì§€ì—­ë³€ìˆ˜
 		a = 'A';
 		
-		//Á¤¼ö 1230À» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö C¼±¾ð
+		//ì •ìˆ˜ 1230ì„ ì €ìž¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ Cì„ ì–¸
 		int c = 123;
 		
-		// ½Ç¼ö 3°³¸¦ ÀúÀåÇÏ±â À§ÇÑ º¯¼ö d1, d2, d3 ¼±¾ð;
+		// ì‹¤ìˆ˜ 3ê°œë¥¼ ì €ìž¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ d1, d2, d3 ì„ ì–¸;
 		
 		double d1, d2 = 12.30, d3 = 0;
 		

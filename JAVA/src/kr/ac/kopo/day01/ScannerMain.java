@@ -8,15 +8,15 @@ public class ScannerMain {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("¹®ÀÚ¸¦ ÀÔ·Â : ");
+		System.out.print("ë¬¸ìë¥¼ ì…ë ¥ : ");
 		char ch = sc.nextLine().charAt(0);
 		System.out.println("ch : " + ch);
 		
-		System.out.print("¹®ÀÚ¿­À» ÀÔ·Â : ");
+		System.out.print("ë¬¸ìì—´ì„ ì…ë ¥ : ");
 		String str = sc.nextLine();
 		System.out.println("str : " + str);
 		
-		System.out.print("Á¤¼ö¸¦ ÇÏ³ª ÀÔ·ÂÇÏ¼¼¿ä : ");
+		System.out.print("ì •ìˆ˜ë¥¼ í•˜ë‚˜ ì…ë ¥í•˜ì„¸ìš” : ");
 		
 		int a = sc.nextInt();
 		System.out.println("a : " + a);

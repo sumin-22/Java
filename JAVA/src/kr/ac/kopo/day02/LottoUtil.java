@@ -2,15 +2,15 @@ package kr.ac.kopo.day02;
 import java.util.Random;
 
 /** 
- * ·Î¶Ç¿Í °ü·ÃµÈ ¿©·¯°¡Áö ±â´ÉÅ¬·¡½º
- * @author ¼ö¹Î
+ * ë¡œë˜ì™€ ê´€ë ¨ëœ ì—¬ëŸ¬ê°€ì§€ ê¸°ëŠ¥í´ë˜ìŠ¤
+ * @author ìˆ˜ë¯¼
  *
  */
 
 public class LottoUtil {
 	
 	/**
-	 * ¿À´ÃÀÇ ·Î¶Ç È®·üÀ» ¾Ë·ÁÁÖ´Â ¸Ş¼Òµå
+	 * ì˜¤ëŠ˜ì˜ ë¡œë˜ í™•ë¥ ì„ ì•Œë ¤ì£¼ëŠ” ë©”ì†Œë“œ
 	 */
 	
 	
@@ -19,7 +19,7 @@ public class LottoUtil {
 		Random r = new Random();
 		int p = r.nextInt(101); // 0~100 
 		
-		System.out.println("¿À´ÃÀÇ ·Î¶Ç È®·üÀº " + p + "%ÀÔ´Ï´Ù");
+		System.out.println("ì˜¤ëŠ˜ì˜ ë¡œë˜ í™•ë¥ ì€ " + p + "%ì…ë‹ˆë‹¤");
 		
 	}
 

@@ -6,7 +6,7 @@ public class VariableMain02 {
 
 	public static void main(String[] args) {
 		
-		//"Hello" ¹®ÀÚ¿­À» ÀúÀåÇÏ±â À§ÇÑ º¯¼ö str ¼±¾ğ
+		//"Hello" ë¬¸ìì—´ì„ ì €ì¥í•˜ê¸° ìœ„í•œ ë³€ìˆ˜ str ì„ ì–¸
 		/*
 		 String str;
 		str = "Hello";

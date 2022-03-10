@@ -7,14 +7,14 @@ public class VariableMain03 {
 		int a;
 		byte b =10;
 		
-		a = b; //byte°¡ intº¸´Ù Å©±â°¡ ÀÛ±â ¶§¹®¿¡ ¹¬½ÃÀû Çüº¯È¯ °¡´É
+		a = b; //byteê°€ intë³´ë‹¤ í¬ê¸°ê°€ ì‘ê¸° ë•Œë¬¸ì— ë¬µì‹œì  í˜•ë³€í™˜ ê°€ëŠ¥
 		b = (byte)a;
 		
 		System.out.println(10 + 20);
-		System.out.println(10 + 20.0); // Å« ¼öÀÇ Å¸ÀÔÀ» µû¶ó°¡°Ô µÈ´Ù. 10Àº int, 20.0Àº double
+		System.out.println(10 + 20.0); // í° ìˆ˜ì˜ íƒ€ì…ì„ ë”°ë¼ê°€ê²Œ ëœë‹¤. 10ì€ int, 20.0ì€ double
 		System.out.println(10 + (int)20.0);
 		
-		double d = 10 + 20.2; //10 + 20.2 °ªÀÌ d·Î µé¾î°£´Ù. ¿©±â¼­ ¹¬½ÃÀû Çüº¯È¯ÀÌ ÀÏ¾î³­´Ù. 
+		double d = 10 + 20.2; //10 + 20.2 ê°’ì´ dë¡œ ë“¤ì–´ê°„ë‹¤. ì—¬ê¸°ì„œ ë¬µì‹œì  í˜•ë³€í™˜ì´ ì¼ì–´ë‚œë‹¤. 
 		System.out.println(d);
 		
 		int e = 10 + (int)20.2;

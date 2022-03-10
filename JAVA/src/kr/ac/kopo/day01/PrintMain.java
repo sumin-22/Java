@@ -1,12 +1,12 @@
 package kr.ac.kopo.day01;
 
 /* 
- 	 »ó¼öÁ¾·ù
- 	 1. Á¤¼ö
- 	 2. ½Ç¼ö
- 	 3. ¹®ÀÚÇü
- 	 4. ¹®ÀÚ¿­
- 	 5. ³í¸®Çü
+ 	 ìƒìˆ˜ì¢…ë¥˜
+ 	 1. ì •ìˆ˜
+ 	 2. ì‹¤ìˆ˜
+ 	 3. ë¬¸ìí˜•
+ 	 4. ë¬¸ìì—´
+ 	 5. ë…¼ë¦¬í˜•
  */
 
 public class PrintMain {
@@ -19,10 +19,10 @@ public class PrintMain {
 		System.out.println("Hello");
 		System.out.println(true);
 		
-		System.out.println(23 + "»ì");
+		System.out.println(23 + "ì‚´");
 		System.out.println(10 + "+" + 20 + "=" + (10+20));
 		
-		System.out.printf("%d»ì\n",27);
+		System.out.printf("%dì‚´\n",27);
 		System.out.printf("%d + %d = %d\n", 10,20,10+20);
 		System.out.printf("[%7d]\n",1200);
 		System.out.printf("[%7d]\n",950);
@@ -31,8 +31,9 @@ public class PrintMain {
 		System.out.printf("[%05d]\n",35);
 		System.out.printf("[%05d]\n",1230);
 		System.out.printf("[%.2f]\n", 12.3091);
-		System.out.printf("%7.1f¿ø",1019.8);
+		System.out.printf("%7.1fì›",1019.8);
 		
 		}
 
 }
+
