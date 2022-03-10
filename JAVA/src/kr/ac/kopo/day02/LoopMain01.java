@@ -19,6 +19,11 @@ package kr.ac.kopo.day02;
   		4.incre/dere;
   	}
   	
+  	1번 수행 -> 2번 조건 참-> 3번 수행 -> 4번 수행
+  	1번 수행 -> 2번 조건 거짓 -> 끝
+  	
+  	
+  	
  */
 
 public class LoopMain01 {
