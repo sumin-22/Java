@@ -20,6 +20,7 @@ public class OperationMain02 {
 		Scanner sc = new Scanner(System.in); //ctrl + shift + o
 		
 		System.out.print("a 입력 : ");
+		
 		int a = sc.nextInt();
 		
 		System.out.print("b 입력 : ");
