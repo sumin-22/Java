@@ -33,8 +33,6 @@ public class SwitchMain01 {
 			System.out.println("ERROR");
 		}
 		
-		
-
 	}
 
 }
