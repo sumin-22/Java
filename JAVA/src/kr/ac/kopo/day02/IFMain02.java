@@ -29,7 +29,16 @@ public class IFMain02 {
 		System.out.print("집에서 출발한 시간을 입력하세요 (7시 30분 : 730) -> ");
 		int time = sc.nextInt();
 		
+		if (time < 800) {
+			System.out.println("걸어서 학교에 간다");
+		} else { 
+			if (time < 815) {
+				System.out.println("버스를 타고 학교에 간다");
+			} else {
+				System.out.println("택시를 타고 학교에 간다");
+			}
 		
+		}
 
 	}
 
