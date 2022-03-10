@@ -9,8 +9,7 @@ public class OperationMain03 {
 		int max = a > b ? a : (a < b ? b : 0);
 		max = a == b ? 0 : (a > b ? a: b);
 		
-		System.out.println(max);
-		
+		System.out.println(max);	
 
 	}
 
