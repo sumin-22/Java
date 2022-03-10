@@ -30,10 +30,13 @@ public class LoopMain01 {
 
 	public static void main(String[] args) {
 		
-		boolean bool = false;
+		//boolean bool = false;
 		System.out.println("------- 반복문 시작 -------");
-		while(bool) {
+		
+		int cnt = 1;
+		while( cnt <= 5) {
 			System.out.println("Hello");
+			++cnt;
 		}
 		System.out.println("------- 반복문 종료 ------");
 		
