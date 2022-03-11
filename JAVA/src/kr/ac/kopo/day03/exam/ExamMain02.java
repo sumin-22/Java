@@ -236,10 +236,10 @@ public class ExamMain02 {
 					System.out.print("*");
 				}
 			}else {
-				for (int j=1; j<= 10-i; j++) {
+				for (int j=1; j<= 9-i; j++) {
 					System.out.print(" ");
 				}
-				for (int k=1; k<=i-5; k++) {
+				for (int k=1; k<=i-4; k++) {
 					System.out.print("*");
 				}
 			}
