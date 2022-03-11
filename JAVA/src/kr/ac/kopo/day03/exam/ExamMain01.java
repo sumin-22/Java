@@ -1,19 +1,33 @@
 package kr.ac.kopo.day03.exam;
 
+/*
+ 	
+ */
+
+
 public class ExamMain01 {
 
 	public static void main(String[] args) {
+		
+		//***** 를 출력하고 싶다. 어떻게 하면 될까용?
+		// ctrl + alt + 아래 화살표 :복붙
+		// ctrl + d :지우기 
+		// Alt 키 누르고 위아래로 옮길 수 있음
+		for(int i = 1; i <=5; i++){
+			System.out.print("*");
+			System.out.println();
+			
+		}
 		
 		
 //		for(int i = 1;i <=10 ; i++) {		//while(true)가 무한루프 for문은 for( ; ;) 형태
 											//일반적으로는 i를 사용
 //		for(int i = 10; i>=1 ; i--) {
-		
 //		for(int i = 0; i <= 9; i++) {
 		
-		for(int i = 5; i <= 14 ; i++) {
-			System.out.println("Hello");
-		}
+//		for(int i = 5; i <= 14 ; i++) {
+//			System.out.println("Hello");
+//		}
 		
 
 	}
