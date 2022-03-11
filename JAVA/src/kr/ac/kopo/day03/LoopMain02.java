@@ -9,8 +9,6 @@ package kr.ac.kopo.day03;
  	for (init; expr; incre) {
  		statement;
  	}
- 	
- 	
  */
 
 public class LoopMain02 {
@@ -22,6 +20,14 @@ public class LoopMain02 {
 			System.out.println("Hello");
 			cnt ++;
 		} while(cnt <=5);	
+		
+		/*
+		  int cnt = 1;
+		  while (cnt <=5) {
+		  	System.out.println("Hello");
+		  	++cnt
+		  }
+		  		 */
 		
 	}
 
