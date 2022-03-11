@@ -35,12 +35,26 @@ public class ExamMain01 {
 //		System.out.print("*****\n");
 //		}
 		
-		for (int i = 1; i <=3; i++) {
+//		for (int i = 1; i <=3; i++) {
 			
-			for (int j = 1; j <=5; j++) {
-				System.out.print("*");
-			}
-			System.out.println();
+//			for (int j = 1; j <=5; j++) {
+//				System.out.print("*");
+//			}
+//			System.out.println();
+//		}
+		int num = 5;
+		for (int i =1; i <=5; i++) {
+			System.out.print(num--);
+		}
+		System.out.println();
+		
+		for (int j = 1; j <=5; j++) {
+			System.out.print(6-j);
+		}
+		System.out.println();
+		
+		for(int k = 5; k >=1; k-- ) {
+			System.out.print(k);
 		}
 		
 		
