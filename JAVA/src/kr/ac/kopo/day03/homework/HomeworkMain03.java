@@ -9,12 +9,11 @@ public class HomeworkMain03 {
 		
 		char ch = 'B';
 		if (ch >= 'A' && ch <= 'Z') {
-			
+			ch = (char)(ch + ('a' - 'A'));
 		} else if (ch >= 'a' && ch <= 'z') {
+			ch = (char)(ch - ('a' - 'A'));
 			
 		}
-		
-		
+		System.out.println(ch);
 	}
-
 }
