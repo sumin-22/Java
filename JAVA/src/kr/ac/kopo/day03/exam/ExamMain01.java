@@ -13,20 +13,27 @@ public class ExamMain01 {
 		// ctrl + alt + 아래 화살표 :복붙
 		// ctrl + d :지우기 
 		// Alt 키 누르고 위아래로 옮길 수 있음
-		for(int i = 1; i <=5; i++){
-			System.out.print("*");
-			System.out.println();
-		}
+		
+//		for(int i = 1; i <=5; i++){
+//			System.out.print("*");
+//			System.out.println();
+//		}
 		
 		
 //		for(int i = 1;i <=10 ; i++) {		//while(true)가 무한루프 for문은 for( ; ;) 형태
 											//일반적으로는 i를 사용
 //		for(int i = 10; i>=1 ; i--) {
 //		for(int i = 0; i <= 9; i++) {
-		
 //		for(int i = 5; i <= 14 ; i++) {
 //			System.out.println("Hello");
 //		}
+		
+	
+		// *****를 반복해서 출력하려면?
+		
+		for (int i = 1; i <= 3; i++){ 
+		System.out.print("*****\n");
+		}
 		
 
 	}
