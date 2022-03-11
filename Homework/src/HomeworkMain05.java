@@ -1,5 +1,5 @@
 
-public class Homework05 {
+public class HomeworkMain05 {
 
 	public static void main(String[] args) {
 		System.out.println("구구단을 출력하세요");
