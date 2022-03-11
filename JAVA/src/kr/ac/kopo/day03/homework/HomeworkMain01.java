@@ -35,10 +35,7 @@ public class HomeworkMain01 {
 		} else {
 			System.out.printf("%3d%3d%3d\n", max, min, num3);
 		}
-		
-		
-		
-
+	
 	}
 
 }
