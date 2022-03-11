@@ -31,9 +31,18 @@ public class ExamMain01 {
 	
 		// *****를 반복해서 출력하려면?
 		
-		for (int i = 1; i <= 3; i++){ 
-		System.out.print("*****\n");
+//		for (int i = 1; i <= 3; i++){ 
+//		System.out.print("*****\n");
+//		}
+		
+		for (int i = 1; i <=3; i++) {
+			
+			for (int j = 1; j <=5; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
 		}
+		
 		
 
 	}
