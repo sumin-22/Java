@@ -10,7 +10,10 @@ public class CarMain {
 		c.name = "소나타";
 		
 		Car c2 = new Car();
-		c.name = "k9";
+		c2.name = "k9";
+		
+		System.out.println("첫번째 자동차 명 : " + c.name);
+		System.out.println("두번째 자동차 명 : " + c2.name);
 
 	}
 
