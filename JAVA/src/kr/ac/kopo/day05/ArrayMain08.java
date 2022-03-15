@@ -12,7 +12,5 @@ public class ArrayMain08 {
 		for(String str : strArr) {
 			System.out.println(str);
 		}
-
 	}
-
 }
