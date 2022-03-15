@@ -1,5 +1,6 @@
 package kr.ac.kopo.day05;
 
+// 실행클래스
 public class CarMain {
 
 	public static void main(String[] args) {
