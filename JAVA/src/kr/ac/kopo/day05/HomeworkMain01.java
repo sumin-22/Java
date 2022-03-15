@@ -24,6 +24,10 @@ import java.util.Scanner;
 
    총 판매액 : XXXX원
    */
+class Icecream {
+	String name;
+	int price;
+}
 
 public class HomeworkMain01 {
 
@@ -32,6 +36,21 @@ public class HomeworkMain01 {
 		
 		System.out.print("아이스크림 구매 개수 : ");
 		int count = sc.nextInt();
+		
+	
+		for(int i = 1; i <= count; i++) {
+			System.out.printf("*** %d번째 아이스크림 구매정보 ***",i);
+			System.out.println();
+			
+			Icecream ic = new Icecream();
+			System.out.print("아이스크림명 : ");
+			ic.name = sc.next();
+			System.out.print("아이스크림 가격 : ");
+			ic.price = sc.nextInt();
+			
+			Icecream [] icArr =
+		}
+		System.out.println(" < 총 " + count + "개의 아이스크림 구매정보 출력 >");
 
 	}
 
