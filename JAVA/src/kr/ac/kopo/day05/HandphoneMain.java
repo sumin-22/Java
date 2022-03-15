@@ -26,6 +26,12 @@ public class HandphoneMain {
 		hp3.name = "윤길동";
 		hp3.phoneNumber = "010-0912-1204";
 		hp3.company = "화웨이";
+		
+		Handphone[] hpArr = {hp, hp2, hp3};
+		
+		for(Handphone phone : hpArr){
+			System.out.println("사용자 : " + phone.name + ", 전화번호" + phone.phoneNumber + ", 제조사 : " + phone.company);
+		}
 
 	}
 
