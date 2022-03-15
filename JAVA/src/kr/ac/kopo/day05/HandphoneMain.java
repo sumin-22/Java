@@ -30,7 +30,7 @@ public class HandphoneMain {
 		Handphone[] hpArr = {hp, hp2, hp3};
 		
 		for(Handphone phone : hpArr){
-			System.out.println("사용자 : " + phone.name + ", 전화번호" + phone.phoneNumber + ", 제조사 : " + phone.company);
+			System.out.println("사용자 : " + phone.name + ", 전화번호 : " + phone.phoneNumber + ", 제조사 : " + phone.company);
 		}
 
 	}
