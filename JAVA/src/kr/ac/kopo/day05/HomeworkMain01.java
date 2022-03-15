@@ -57,6 +57,10 @@ public class HomeworkMain01 {
 		for(Icecream ic : icArr) {
 			System.out.println(ic.name + ic.price);
 		}
+		
+		for(int i = 0; i <count; i++) {
+			System.out.println(i+1 + icArr[i].name + icArr[i].price);
+		}
 		System.out.println(sum);
 	}
 
