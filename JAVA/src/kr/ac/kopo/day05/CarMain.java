@@ -7,7 +7,7 @@ public class CarMain {
 		
 		//new 클래스명();		클래스명 대문자로 써주기!
 		Car c = new Car(); 
-		c.name = "소나타";
+		c.name = "소나타";	// 문자열은 new 쓰지 않아도 됨
 		
 		Car c2 = new Car();
 		c2.name = "k9";
