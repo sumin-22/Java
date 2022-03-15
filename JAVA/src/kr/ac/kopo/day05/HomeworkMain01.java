@@ -36,22 +36,28 @@ public class HomeworkMain01 {
 		
 		System.out.print("아이스크림 구매 개수 : ");
 		int count = sc.nextInt();
+		sc.nextLine();
 		
-	
-		for(int i = 1; i <= count; i++) {
-			System.out.printf("*** %d번째 아이스크림 구매정보 ***",i);
-			System.out.println();
+		int sum = 0;
+		Icecream [] icArr = new Icecream[count];
+		
+		for(int i =0; i < count; i++) {
+			icArr[i] = new Icecream();
+			System.out.printf("*** %d번째 아이스크림 구매정보 *** \n",i+1);
+			System.out.print("아이스크림명 : ");		
+			icArr[i].name = sc.nextLine();
 			
-			Icecream ic = new Icecream();
-			System.out.print("아이스크림명 : ");
-			ic.name = sc.next();
-			System.out.print("아이스크림 가격 : ");
-			ic.price = sc.nextInt();
+			System.out.print("아이스크림 가격 : ");	
+			icArr[i].price = sc.nextInt();
+			sc.nextLine();
 			
-			Icecream [] icArr =
+			sum += icArr[i].price;
 		}
-		System.out.println(" < 총 " + count + "개의 아이스크림 구매정보 출력 >");
-
+		
+		for(Icecream ic : icArr) {
+			System.out.println(ic.name + ic.price);
+		}
+		System.out.println(sum);
 	}
 
 }
