@@ -27,6 +27,13 @@ public class HomeworkMain01 {
 			System.out.print("아이스크림 가격 : ");
 			iceArr[i].prie = Integer.parseInt(sc.nextLine());
 		}
+		
+		System.out.println("< " + iceArr.length + "개 아이스크림 구매정보 출력 >");
+		System.out.println("번호\t아이스크림명\t아이스크림가격");
+		int no=0;
+		for(Icecream ice : iceArr) {
+			System.out.println(++no + "\t" + ice.name + "\t" + ice.prie);
+		}
 
 	}
 
