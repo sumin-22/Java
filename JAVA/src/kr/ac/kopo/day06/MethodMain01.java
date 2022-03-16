@@ -17,7 +17,7 @@ package kr.ac.kopo.day06;
 public class MethodMain01 {
 	
 	static void printStar(){	//메소드명은 소문자로 시작 
-		System.out.println("**********");
+		System.out.println("*****");
 	}
 	//메소드 정의
 	public static void main(String[] args) {
