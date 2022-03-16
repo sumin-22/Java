@@ -10,6 +10,8 @@ class 고양이 {
 }
 
 class Method{
+	//메소드 오버로딩(overloading)
+	//같은 클래스 내에서 메소드명이 같으면서 매개변수의 개수나 타입이 서로 다른 것
 	void call() {
 		System.out.println("call() 메소드 호출 ... ");
 	}
