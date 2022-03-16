@@ -15,6 +15,7 @@ public class HomeworkMain01 {
 		
 		System.out.print("아이스크림 구매 개수 : ");
 		int count = sc.nextInt();
+		sc.nextLine();
 		
 		Icecream[] iceArr = new Icecream[count];  //주소값을 기억하는 참조배열일 뿐
 		for(int i =0; i < count; i++) {
@@ -24,7 +25,7 @@ public class HomeworkMain01 {
 			System.out.print("아이스크림명 : ");
 			iceArr[i].name = sc.nextLine();
 			System.out.print("아이스크림 가격 : ");
-			iceArr[i].prie = sc.nextInt();
+			iceArr[i].prie = Integer.parseInt(sc.nextLine());
 		}
 
 	}
