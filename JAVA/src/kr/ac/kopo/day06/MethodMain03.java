@@ -13,7 +13,7 @@ public class MethodMain03 {
 		
 		ExamMethod exam = new ExamMethod();
 		int sum = exam.getSum(10, 20);
-		System.out.println(sum);
+		System.out.println("10 + 20 = " + sum);
 		
 
 	}
