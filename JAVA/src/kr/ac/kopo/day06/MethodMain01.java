@@ -1,4 +1,5 @@
 package kr.ac.kopo.day06;
+
 /*
  	**********
  	Hello
@@ -16,21 +17,22 @@ package kr.ac.kopo.day06;
 
 public class MethodMain01 {
 	
-	static void printStar(){	//메소드명은 소문자로 시작 
-		for(int i =0; i <10; i++) {
-			System.out.print("*");
+	static void printStar(char ch, int cnt){	//메소드명은 소문자로 시작 
+		for(int i =0; i <cnt; i++) {
+			System.out.print(ch);
 		}
 		System.out.println();
 	}
 	//메소드 정의
 	public static void main(String[] args) {
-		printStar();	//메소드 호출
+		printStar('*', 10);	//메소드 호출
 		System.out.println("Hello");
-		printStar();
+		printStar('!', 20);
 		System.out.println("Hi");
-		printStar();
+		printStar('-', 5);
 		System.out.println("Bye");
-		printStar();
+		printStar('#', 8);
+		
 		
 	
 
