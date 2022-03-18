@@ -52,6 +52,12 @@ public class StringMain03 {
 		String data = "시멘틱에러 : 드라마";
 		String[] bookInfo = data.split(":");
 		System.out.println("split() : " + Arrays.toString(bookInfo));
+		
+		int num = 1230;
+		int num2 = 901;
+		String strNum = String.valueOf(num);
+		String strNm2 = String.valueOf(num2);
+		System.out.println(strNum + strNm2);
 	}
 
 }
