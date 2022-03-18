@@ -50,6 +50,18 @@ public class StringMain02 {
 				System.out.println(name);
 			}
 		}
+		
+		str = "apple";
+		str2 = "banana";
+		
+		int compare = str.compareTo(str2);
+		if(compare == 0) {
+			System.out.println(str + " == " + str2);
+		} else if(compare > 0) {
+			System.out.println(str + " > " + str2);
+		} else {
+			System.out.println(str + " < " + str2);
+		}
 
 	}
 
