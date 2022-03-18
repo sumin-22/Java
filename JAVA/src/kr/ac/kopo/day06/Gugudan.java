@@ -29,5 +29,11 @@ public class Gugudan {
 		}
 		
 	}
+	void print(int start, int end) {
+		for(int dan = start; dan <= end; dan++) {
+			print(dan);
+		}
+		
+	}
 
 }
