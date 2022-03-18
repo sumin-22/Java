@@ -7,7 +7,7 @@ public class StringMain01 {
 		String str = new String("Hello");
 		char[] chars = {'H', 'e','l','l','o'};
 		String str2 = new String(chars);
-		byte[] bytes = {65,67,98,123};
+		byte[] bytes = {65, 67, 98, 120};
 		String str3 = new String(bytes);
 		
 		System.out.println("str : " + str);
