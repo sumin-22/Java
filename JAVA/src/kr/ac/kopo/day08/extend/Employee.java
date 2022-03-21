@@ -5,6 +5,10 @@ public class Employee {
 	int salary;
 	String grade;
 	
+	public Employee() {			//기본생성자를 만들어주는게 좋다
+		
+	}
+	
 	public Employee(String name, int salary, String grade) {
 		this.name = name;
 		this.salary = salary;

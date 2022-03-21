@@ -1,13 +1,12 @@
 package kr.ac.kopo.day08.extend;
 
 //	관리자는 사원의 한 형태라는 조건 부합 => 상속 관계 표현
-public class Manager02 {
-	String name;
-	int salary;
-	String grade;
+public class Manager02 extends Employee {
+
 	Employee[] empList;		//관리사원목록
 	
 	Manager02(String name, int salary, String grade, Employee[] empList){
+		super(); 
 		this.name = name;
 		this.salary = salary;
 		this.grade = grade;
