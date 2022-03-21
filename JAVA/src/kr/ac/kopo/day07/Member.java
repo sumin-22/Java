@@ -8,11 +8,11 @@ public class Member {
 	String bloodType;
 	
 	Member() {
-		this("알수없음", -1, "알수없음");
+		this("알수없음");
 	}
 	
 	Member(String name){
-		this(name, -1, "알수없음");
+		this(name, 0);
 	}
 	
 	/*
