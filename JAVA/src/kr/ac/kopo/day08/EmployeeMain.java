@@ -8,6 +8,9 @@ public class EmployeeMain {
 		
 //		System.out.println("총사원수 : " + Employee.employeeCnt + "명");
 		
+		"hello".length();
+		String.valueOf(false);
+		
 		Employee.employeeCntInfo();
 		Employee e = new Employee("김태형", 3300, "사원");
 //		totalEmployee++;
