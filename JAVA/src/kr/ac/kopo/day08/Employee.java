@@ -14,5 +14,9 @@ public class Employee {
 		this.salary = salary;
 		this.grade = grade;
 	}
+	
+	void info() {
+		System.out.println("사원명 : " + name + ", 연봉 : " + salary + "만원, 직급 : " + grade);
+	}
 
 }
