@@ -5,6 +5,8 @@ public class Manager02 extends Employee {
 
 	Employee[] empList;		//관리사원목록
 	
+	public Manager02() {}
+	
 	Manager02(String name, int salary, String grade, Employee[] empList){
 		super(); 
 		this.name = name;
