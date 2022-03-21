@@ -10,7 +10,8 @@ public class ExtendMain01 {
 		Employee e5 = new Employee("김남준", 5200, "과장");
 		
 		Employee [] empList = {e, e4, e5};
-		Manager01 m = new Manager01("김석진", 9000, "부장", empList);
+//		Manager01 m = new Manager01("김석진", 9000, "부장", empList);
+		Manager02 m = new Manager02("김석진", 9000, "부장", empList);
 		
 		e.info();
 		e2.info();
