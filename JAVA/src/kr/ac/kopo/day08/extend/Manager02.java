@@ -9,7 +9,7 @@ public class Manager02 extends Employee {
 	
 	Manager02(String name, int salary, String grade, Employee[] empList){
 		super(); 
-		this.name = name;
+		this.name = name;		// private사용 시 this쓰면 에러남
 		this.salary = salary;
 		this.grade = grade;
 		this.empList = empList;
