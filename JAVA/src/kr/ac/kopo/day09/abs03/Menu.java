@@ -14,19 +14,23 @@ public class Menu {
 	
 	
 	public void print(String type) {
+		Printer p =null;
 		switch(type) {
 		case "1" :
-			LGPrinter lg = new LGPrinter();
-			lg.print();
+			p = new LGPrinter();
+			p.print();
 			break;
 		case "2" :
-			SamsungPrinter sam = new SamsungPrinter();
-			sam.print();
+			p  = new SamsungPrinter();
+			p.print();
 			break;
 		case "3" :
-			HpPrinter hp = new HpPrinter();
-			hp.print();
+			p = new HpPrinter();
+			p.print();
 			break;
+		}
+		if( p!= null) {			
+			p.print();
 		}
 	}
 	public void process() {
