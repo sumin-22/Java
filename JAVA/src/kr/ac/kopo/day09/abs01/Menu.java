@@ -12,8 +12,22 @@ public class Menu {
 		return type;
 	}
 	
+	
+	public void print(String type) {
+		switch(type) {
+		case "1" :
+			LGPrinter lg = new LGPrinter();
+			lg.lgPrint();
+			break;
+		case "2" :
+			SamsungPrinter sam = new SamsungPrinter();
+			sam.samPrint();
+			break;
+		}
+	}
 	public void process() {
 		String type = select();
+		
 		
 	}
 
