@@ -1,6 +1,6 @@
 package kr.ac.kopo.day08.extend;
 
-public class ExtendMain01 {
+public class ExtendsMain01 {
 
 	public static void main(String[] args) {
 		Employee e = new Employee("김태형", 3300, "사원");
