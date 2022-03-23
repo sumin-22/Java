@@ -19,6 +19,7 @@ public class LGTV implements TV{
 	public void powerOn() {
 		power = true;
 		System.out.println("전원을 켭니다");
+		info();
 		
 	}
 
@@ -32,13 +33,18 @@ public class LGTV implements TV{
 	@Override
 	public void channelUp() {
 		channelNo = ++channelNo % LGTV.MAX_CHANNEL_SIZE;
-		
+		System.out.println("채널을 올립니다");
+		info();
 	}
 
 	@Override
 	public void channelDown() {
-		channelNo = --channelNo % LGTV.MAX_CHANNEL_SIZE;
-		
+		if(channelNo ==0) {
+			channelNo = LGTV.MAX_CHANNEL_SIZE;
+		channelNo--;
+		}
+		System.out.println("채널을 내립니다");
+		info();
 	}
 
 	@Override
@@ -47,6 +53,7 @@ public class LGTV implements TV{
 			volumeSize++;					
 		}
 		System.out.println("음량을 높입니다");
+		info();
 	}
 
 	@Override
@@ -55,13 +62,18 @@ public class LGTV implements TV{
 			volumeSize--;
 		}
 		System.out.println("음량을 낮춥니다");
-		
+		info();
 	}
 
 	@Override
 	public void mute() {
-		// TODO Auto-generated method stub
-		
+		volumeSize = TV.MIN_VOLUME_SIZE;
+		System.out.println("음소거 중입니다...");
+		info();
+	}
+	
+	public void info() {
+		System.out.println("채널번호 : " + channelNo + ", 음량크기 : "+ volumeSize);
 	}
 
 }
