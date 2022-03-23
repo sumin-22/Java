@@ -2,46 +2,43 @@ package kr.ac.kopo.day10.inter;
 
 public class SamsungTV implements TV {
 
+	public SamsungTV() {
+		System.out.println("삼성TV를 구매했습니다");
+	}
+
 	@Override
 	public void powerOn() {
-		// TODO Auto-generated method stub
-
+		System.out.println("TV 전원 ON");
 	}
 
 	@Override
 	public void powerOff() {
-		// TODO Auto-generated method stub
-
+		System.out.println("TV 전원 OFF");
 	}
 
 	@Override
 	public void channelUp() {
-		// TODO Auto-generated method stub
-
+		System.out.println("CHANNEL UP");
 	}
 
 	@Override
 	public void channelDown() {
-		// TODO Auto-generated method stub
-
+		System.out.println("CHANNEL DOWN");
 	}
 
 	@Override
 	public void volumeUp() {
-		// TODO Auto-generated method stub
-
+		System.out.println("VOLUME UP");
 	}
 
 	@Override
 	public void volumeDown() {
-		// TODO Auto-generated method stub
-
+		System.out.println("VOLUME DOWN");
 	}
 
 	@Override
 	public void mute() {
-		// TODO Auto-generated method stub
-
+		System.out.println("MUTE...");
 	}
 
 }
