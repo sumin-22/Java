@@ -1,0 +1,15 @@
+package kr.ac.kopo.day10.inter;
+
+public interface TV {
+	int MIN_VOLUME_SIZE = 0;
+	/*public static final*/ int MAX_VOLUME_SIZE = 50;
+	
+	/*public abstract*/ void powerOn();
+	void powerOff();
+	void channelUp();
+	void channelDown();
+	void volumeUp();
+	void volumeDown();
+	void mute();
+	
+}
