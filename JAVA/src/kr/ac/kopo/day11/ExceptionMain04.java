@@ -17,8 +17,8 @@ public class ExceptionMain04 {
 			System.out.println("str : " + str);
 			System.out.println(str.charAt(10));
 			
-		} catch(ArithmeticException | StringIndexOutOfBoundsException ae) {
-			System.out.println("예외 발생-! : " + ae.getMessage());
+		} catch(Exception e) {	//묵시적 형변환
+			System.out.println("예외 발생-! : " + e.getMessage());
 		} 
 		
 		System.out.println("Main End..!");
