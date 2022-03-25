@@ -51,3 +51,19 @@ public class MapMain02 {
 }
 
 
+
+
+
+
+
+
+		
+//		Set<Entry<Member, Car>> entrys = map.entrySet();
+//		for(Entry<Member, Car> data : entrys) {
+//			Member member = data.getKey();
+//			Car car = data.getValue();
+//			
+//			System.out.println(member);
+//			System.out.println(car);
+//		}
+
