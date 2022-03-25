@@ -22,14 +22,15 @@ public class Member {
 			return false;
 		}
 		Member m =(Member)obj;
-		if(this.name.equals(m.name)) {
+		if(!this.name.equals(m.name)) {
 			return false;
 		}
-		if (this.phone.equals(m.phone)) {
+		if(!this.phone.equals(m.phone)) {
 			return false;
 		}
 		return true;
-		
 	}
+	
+	
 
 }
