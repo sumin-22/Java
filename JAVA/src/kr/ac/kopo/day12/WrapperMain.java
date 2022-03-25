@@ -21,7 +21,15 @@ package kr.ac.kopo.day12;
 public class WrapperMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		int i = 100;
+		Integer i2 = new Integer(100);
+		Integer i3 = 100;	//auto boxing
+		int i4 = new Integer(100);	//auto unboxing
+		
+		System.out.println(Integer.parseInt("123") + 100);		//기본자료형
+		System.out.println(Integer.valueOf("123")+ 100);		//리턴타입: 레퍼런스의 integer
+		//제너릭은 무조건 레퍼런스만 되기 때문에 기본자료형을 이용하려면 wrapper class를 이용해야한다 
 
 	}
 
