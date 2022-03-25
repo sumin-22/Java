@@ -15,7 +15,7 @@ public class MapMain02 {
 
 	public static void main(String[] args) {
 		
-		Map<Member, Car> map = new HashMap<>();
+		Map<Member, Car> map = new HashMap<>();	//객체가 같은 것은 equals의 값이 true이면서 hashcode가 같아야한다
 		
 		map.put(
 				new Member("홍길동", "010-1111-2222"), 
@@ -34,6 +34,8 @@ public class MapMain02 {
 		);
 		
 		System.out.println("총 개수 : " + map.size());
+		//문자열의 hashcode는 같음
+		
 		
 		/*
 		Set<Entry<Member, Car>> entrys= map.entrySet();
@@ -48,20 +50,4 @@ public class MapMain02 {
 	}
 }
 
-
-
-
-
-
-
-
-		
-//		Set<Entry<Member, Car>> entrys = map.entrySet();
-//		for(Entry<Member, Car> data : entrys) {
-//			Member member = data.getKey();
-//			Car car = data.getValue();
-//			
-//			System.out.println(member);
-//			System.out.println(car);
-//		}
 
