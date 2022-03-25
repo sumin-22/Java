@@ -3,6 +3,7 @@ package kr.ac.kopo.day12;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.Set;
 
 /* 
  * Map : key, value 쌍의 집합, key에 대한 중복 (X)
@@ -40,19 +41,42 @@ public class MapMain01 {
 			return;
 		}
 		
-		System.out.print("변경할 패스워드르 입력하세요 : ");
+		System.out.print("변경할 패스워드를 입력하세요 : ");
 		String newpassword = sc.nextLine();
 		map.put(id, newpassword);
 		System.out.println("패스워드가 변경되었습니다");
 		
+		System.out.println("< 회원 정보 출력 >");
+		System.out.println("--------------");
+		System.out.println("<아이디\t패스워드>");
+		System.out.println("--------------");
 		
-		
-		
-		
-		
-		
-		
-
+		Set<String> keys = map.keySet();
+		for(String key : keys) {
+			System.out.println(key + "\t" + map.get(key));
+		}
+//		Set<Entry<String, String>> set = map.entrySet();
+//		for(Entry<String, String> e : set) {
+//			System.out.println(e.getKey() + "\t" +  e.getValue());
+//			
+//		}
 	}
+	
+//	class Cat{
+//		private String name;
+//		private String age;
+//		public String getName() {
+//			return name;
+//		}
+//		public void setName(String name) {
+//			this.name = name;
+//		}
+//		public String getAge() {
+//			return age;
+//		}
+//		public void setAge(String age) {
+//			this.age = age;
+//		}
+//	}
 
 }
