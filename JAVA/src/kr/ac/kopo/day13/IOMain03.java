@@ -5,6 +5,8 @@ import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
+import kr.ac.kopo.util.FileClose;
+
 /*
  * tan.jpg (입력장치) -> tan2.jpg 복사 (출력장치)
  */
@@ -38,7 +40,21 @@ public class IOMain03 {
 			
 		} catch( Exception e) {
 			e.printStackTrace();
+			
 		} finally {
+			
+			FileClose.close(bis, fis);
+			FileClose.close(bos, fos);
+		
+//			FileClose.close(bis);
+//			FileClose.close(bos);
+//			
+//			FileClose.close(fis);
+//			FileClose.close(fos);
+		}
+		
+		
+		/*finally {
 			
 			if(bis != null) {
 				try {
@@ -68,7 +84,7 @@ public class IOMain03 {
 			} catch(Exception e ) {
 				e.printStackTrace();
 			}
-		}
+		}*/
 		
 		System.out.println("파일 복사가 완료되었습니다");
 
