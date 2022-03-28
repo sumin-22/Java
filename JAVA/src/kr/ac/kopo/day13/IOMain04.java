@@ -16,9 +16,11 @@ public class IOMain04 {
 			fos = new FileOutputStream("iotest/data.dat");
 			dos = new DataOutputStream(fos);
 			char c = 'A';
+			int num = 1230;
 			
-//			fos.write(c);
-			dos.writeChar(c);
+//			fos.write(c);			1byte
+			dos.writeChar(c);	  //2byte
+			dos.write(num);		  //4byte
 			
 			fos.flush();
 			
