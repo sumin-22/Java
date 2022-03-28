@@ -18,11 +18,12 @@ public class IOMain04 {
 			char c = 'A';
 			int num = 99;
 			
-//			fos.write(c);			1byte
+			dos.write(c);		  //1byte
 			dos.writeChar(c);	  //2byte
 			dos.write(num);		  //4byte
 			
-			fos.flush();
+			
+			dos.flush();
 			
 		} catch (Exception e) {
 			e.printStackTrace();
