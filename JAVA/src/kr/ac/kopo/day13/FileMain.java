@@ -6,14 +6,36 @@ public class FileMain {
 
 	public static void main(String[] args) {
 		
-		File dirObj = new File("iotest/그래미/라스베이거스");
-		System.out.println("존재 여부 : " + dirObj.exists());
-		System.out.println("디렉토리 여부 : " + dirObj.isDirectory());	//디렉토리는 폴더
-		System.out.println("파일 여부 : " + dirObj.isFile());
-		
-		if(!dirObj.exists()) {
-			dirObj.mkdirs();
+		File dirObj = new File("iotest");
+		if(dirObj.exists()) {
+			
+			File[] list = dirObj.listFiles();
+			for(File f : list) {
+				System.out.println(f.getName());
+				System.out.println(f.isDirectory()? "디렉토리" : "파일");
+			}
 		}
+		
+		
+//		 File dirObj = new File("iotest");
+//		 if(dirObj.exists()) {
+//			 String[] list = dirObj.list();
+//			 for(String data : list) {
+//				 System.out.println(data);
+//				 File fileObj = new File(dirObj.getName() + "/" + data);
+//				 
+//			 }
+//		 }
+		
+		
+		
+		/*
+		 * File dirObj = new File("iotest/그래미/라스베이거스"); System.out.println("존재 여부 : " +
+		 * dirObj.exists()); System.out.println("디렉토리 여부 : " + dirObj.isDirectory());
+		 * //디렉토리는 폴더 System.out.println("파일 여부 : " + dirObj.isFile());
+		 * 
+		 * if(!dirObj.exists()) { dirObj.mkdirs(); }
+		 */
 		
 		
 		
