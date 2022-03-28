@@ -1,6 +1,8 @@
 package kr.ac.kopo.day13;
 
-public class Icecream {
+import java.io.Serializable;
+
+public class Icecream implements Serializable {
 	
 	private String name;
 	private int price;
