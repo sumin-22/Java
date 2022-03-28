@@ -22,13 +22,12 @@ public class IOMain04 {
 			dos.writeChar(c);	  //2byte
 			dos.write(num);		  //4byte
 			
-			
 			dos.flush();
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 		} finally {
-			FileClose.close(fos);
+			FileClose.close(dos, fos);
 		}
 	}
 
