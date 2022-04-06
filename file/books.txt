@@ -1,0 +1,4 @@
+s,s,s,none,none,none
+f,f,f,none,none,none
+g,g,g,none,none,none
+
