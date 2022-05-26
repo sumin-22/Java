@@ -3,42 +3,44 @@ package kr.ac.kopo.jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
+import java.util.Scanner;
 
-// id: 'hong' name : '홍길동' 레코드 삽입
 /*
- * 작업순서
- * 1. 드라이버 로딩
- * 2. DB 접속 및 Connection 얻어오기
- * 3. sql 실행 객체 얻어오기
- * 4. 쿼리 시행 및 결과 얻어오기
- * 5. 접속 종료
+ * 아이디 입력: park
+ * 이름 입력 : 박길동
+ * 1개 행을 삽입하였습니다.
  */
 
-public class InsertMain01 {
+public class InsertMain02 {
 
 	public static void main(String[] args) {
-		//트랜잭션에서는 사용 불가, auto commit이 자동으로 일어나기 때문
 		Connection conn = null;
 		Statement stmt = null;
 		
 		try {
 			//1. 드라이버 로딩
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			System.out.println("드라이버 로딩 완료... ");
 			
-			//2. DB 접속 및 Connection 객체 얻기
+			//2. DB접속
 			String url = 		"jdbc:oracle:thin:@192.168.119.119:1521:dink";
-			String user = 		"scott";
-			String password =   "tiger";
+			String id  =		"scott"; 
+			String password =	"tiger";
 			
-			conn = DriverManager.getConnection(url,user,password);
-			System.out.println("conn : " + conn);
+			conn = DriverManager.getConnection(url,id,password);
+			System.out.println("conn: " + conn);
 			
-			//3. sql 실행객체 얻어오기
+			//3. 실행객체 얻어오기
+			Scanner sc = new Scanner(System.in);
+			System.out.print("id : ");
+			String i = sc.nextLine();
+			System.out.print("Name : ");
+			String name = sc.nextLine();
+			
+			String sql = "insert into t_test(id, name) ";
+				   // 'id' ,'name' 형태로 넣어주어야한다
+				   sql += "values(\'" +  i + "\', \'" + name + "\')";
 			stmt = conn.createStatement();
-			String sql = "insert into t_test(id, name) values('hong','홍길동')";
 			
-			//4. sql을 실행하고 결과를 얻어오기
 			int cnt = stmt.executeUpdate(sql);
 			System.out.println("총 " + cnt + "개 행이 삽입되었습니다.");
 			
@@ -63,7 +65,7 @@ public class InsertMain01 {
 				}
 			}
 		}
-		
+
 	}
 
 }
